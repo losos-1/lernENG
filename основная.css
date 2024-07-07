@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(255, 255, 207);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper{
+    padding: 27px 45px;
+    background-color: rgb(255, 255, 207);
+    max-width: 1920px;
+}
+p{
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none;   
+}
+.header_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+.header_connection{
+    display: flex;
+}
+.phone{
+    font-size: 24px;
+    color: rgb(0, 0, 0,0.5);
+}
+.header_hr{
+    color: black;  
+}
+.header_item{
+    font-size: 20px;
+}
+.mein_text{
+    margin-top: 158px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    width: 630px;
+}
+.stats_item{
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    font-size: 28px;
+}
+.text_stats{
+    display: flex;
+    gap: 30px;
+}
+.stats_item_long{
+    display: flex;
+    width: 270px;
+    flex-wrap: wrap;
+    font-size: 23px;
+}
+.stats_num{
+    font-size: 54px;
+}
+.stats_pl{
+    color: rgb(255, 194, 28);
+    font-size: 54px;
+    margin-left: 10px;
+}
+.stats_text{
+    font-size: 23px;
+}
+.section_1{
+    display: flex;
+}
+.promo_link{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.header_button{
+    padding: 10px 42px;
+    background-color: rgb(255, 215, 104);
+    border: none;
+    border-radius: 15px;
+    position: relative;
+}
+.header_button:hover{
+    padding: 13px 45px;
+}
+.promo_button{
+    padding: 15px 45px;
+    font-size: 20px;
+    background-color: rgb(255, 215, 104);
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 150px;
+}
+.promo_button:hover{
+    padding: 18px 50px;
+}

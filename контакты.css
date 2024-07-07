@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(255, 255, 207);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper{
+    margin: 0px;
+    padding: 27px 45px;
+    background-color: rgb(255, 255, 207);
+    max-width: 1920px;
+}
+p{
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+.logo{
+    font-size:32px;
+}
+a{
+    color: black;
+    text-decoration: none;   
+}
+.header_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+.header_connection{
+    display: flex;
+}
+.phone{
+    font-size: 24px;
+    color: rgb(0, 0, 0,0.5);
+}
+.header_hr{
+    color: black;  
+}
+.header_item{
+    font-size: 20px;
+}
+.promo_text{
+    text-align: center;
+    margin-bottom: 60px;
+    h2{
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    
+}
+.window{
+    width: 794px;
+    border:none;
+    border-radius: 15px;
+    background-color: rgb(140, 226, 255);
+    margin-left: 300px;
+    
+}
+.content{
+    padding: 40px;
+}
+.name_email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    h5{
+        margin: 5px;
+        font-size: 16px;
+    }
+    input{
+        border-radius: 15px;
+        width: 350px;
+        border: none;
+        height: 60px;
+        margin-bottom: 24px;
+    }
+}
+.fitbek{
+    h5{
+        margin: 5px;
+        font-size: 16px;
+    }
+    input{
+        border-radius: 15px;
+        width: 100%;
+        border: none;
+        height: 100px;
+        margin-bottom: 24px;
+    }
+}
+.content_button{
+    background-color: rgb(255, 215, 104);
+    border-radius: 15px;
+    padding: 20px 328px;
+    margin-bottom: 24px;
+    color: black;
+    border: none ;
+    
+}
+.header_button{
+    padding: 10px 42px;
+    background-color: rgb(255, 215, 104);
+    border: none;
+    border-radius: 15px;
+    position: relative;
+}
+.header_button:hover{
+    padding: 13px 45px;
+}
