@@ -16,8 +16,6 @@ header{
     position: sticky;
     padding-left: 40px;
     padding-right: 40px;
-    width: 100%;
-    max-width: 1450px;
 }
 a{
     color: black;
@@ -65,9 +63,6 @@ a{
         border-radius: 10px;
         margin-bottom: 100px;
     }
-    img{
-        margin-bottom: 80px;    
-    }
 }
 .stats_item{
     display: flex;
@@ -78,6 +73,7 @@ a{
         text-align: start;
     }
 }
+    
 .text_stats{
     display: flex;
     gap: 30px;
@@ -112,14 +108,14 @@ a{
     margin-top: 30px;
 }
 .header_button{
-    padding: 7px 12px;
+    padding: 10px 42px;
     background-color: rgb(255, 196, 0);
     border: none;
     border-radius: 15px;
     position: relative;
 }
 .header_button:hover{
-    padding: 10px 20px;
+    padding: 13px 45px;
 }
 
 .promo_button:hover{
@@ -130,8 +126,7 @@ a{
     align-items: center;
     justify-content: space-between;
     flex-wrap:wrap ;
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
     .gg_item{
         margin-bottom: 20px;
         display: flex;
